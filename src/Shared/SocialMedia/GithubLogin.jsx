@@ -1,4 +1,4 @@
-// import { GithubAuthProvider } from "firebase/auth";
+
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 
 const GithubLogin = () => {
 
-    const {githubSignIn } = useContext(AuthContext);
+    const { githubSignIn } = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -14,21 +14,35 @@ const GithubLogin = () => {
     const from = location.state?.from?.pathname || "/"
 
 
-    const handleGithubSignIn= () =>{
+    const handleGithubSignIn = () => {
         githubSignIn()
-        .then(result => {
-            const logUser = result.user
-            console.log(logUser);
-            navigate(from, { replace: true });
+            .then(result => {
+                const logUser = result.user
+                console.log(logUser);
+                Swal.fire({
+                    position: 'top-center',
+                    icon: 'success',
+                    title: 'Your have successfully Logged In',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
 
-        })
-        .catch(error => {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text:` ${error.message}`,
+                    .then(res => res.json())
+                    .then(() => {
+
+                        navigate(from, { replace: true })
+
+                    })
+                // navigate(from, { replace: true });
+
             })
-        })
+            .catch(error => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: ` ${error.message}`,
+                })
+            })
 
     }
 

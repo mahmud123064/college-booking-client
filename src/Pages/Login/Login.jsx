@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import login_img from '../../../public/login_img.jpg'
 import { useForm } from 'react-hook-form';
-import {  useContext, useState } from 'react';
+import {  useContext, useRef, useState } from 'react';
 import { AuthContext } from '../../Providers/AuthProvider';
 import { Helmet } from 'react-helmet-async';
 import Swal from 'sweetalert2';
@@ -14,6 +14,7 @@ const Login = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     const [show, setShow] = useState(false);
+    // const emailRef = useRef()
     // const location = useLocation();
     // const navigate = useNavigate();
 
@@ -39,6 +40,10 @@ const Login = () => {
             })
     }
 
+//     const handleResetPassword = event => {
+// console.log(emailRef.current);
+//     }
+
 
     return (
         <div className='mb-12'>
@@ -60,7 +65,7 @@ const Login = () => {
                                         <label className="label">
                                             <span className="label-text">Email</span>
                                         </label>
-                                        <input type="email" name='email'
+                                        <input type="email" name='email' 
                                             {...register("email", { required: true })}
                                             placeholder="email" className="input input-bordered" />
                                     </div>
@@ -101,6 +106,9 @@ const Login = () => {
                                     </div>
                                 </form>
                                 <p className='text-center'>Do not have an Account?<span className='text-red-500 '><Link to='/signup'> Please Register</Link></span></p>
+
+                                {/* <p className='text-center'>Forgot password?<span className='underline' onClick={handleResetPassword}><Link>Reset password</Link></span></p> */}
+                        
 
                                 <GoogleLogin></GoogleLogin>
                                 <GithubLogin></GithubLogin>
