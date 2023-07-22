@@ -14,11 +14,10 @@ const Footer = () => {
                 <p><span className="uppercase font-semibold">muz-it</span> Solution<br />Providing reliable service since from 2007</p>
             </div>
             <div>
-                <span className="footer-title">Services</span>
                 <Link className="link link-hover">Home</Link>
-                <Link className="link link-hover"> Instructors</Link>
-                <Link className="link link-hover">Classes</Link>
-                <Link className="link link-hover">Dashboard</Link>
+                <Link className="link link-hover">Colleges</Link>
+                <Link className="link link-hover">Admission</Link>
+                <Link className="link link-hover">My College</Link>
             </div>
             <div>
                 <span className="footer-title">Information</span>
