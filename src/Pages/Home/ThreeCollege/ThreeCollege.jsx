@@ -10,7 +10,6 @@ const ThreeCollege = () => {
           try {
             const response = await fetch('http://localhost:5000/collegeinfo');
             const jsonData = await response.json();
-            // const sortedData = jsonData.sort((a, b) => a.available_seats - b.available_seats);
             const topThreeData = jsonData.slice(0, 3);
             console.log(topThreeData);
             SetThreeColleges(topThreeData);

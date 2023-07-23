@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const ThreeCollegeDetails = ({ threecollege }) => {
@@ -18,7 +19,7 @@ const ThreeCollegeDetails = ({ threecollege }) => {
                     <p><span className="font-semibold">Research History: </span>{researchHistory}</p>
                     <p><span className="font-semibold">Sports: </span>{sports}</p>
                     <div className="card-actions items-center mx-auto">
-                        <button className="btn btn-secondary">Details</button>
+                       <Link to={`/threecollegedata/${threecollege}`}> <button className="btn btn-secondary">Details</button></Link>
                     </div>
                 </div>
             </div>
