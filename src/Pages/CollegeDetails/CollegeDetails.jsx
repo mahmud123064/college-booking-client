@@ -5,9 +5,9 @@ const CollegeDetails = ({ college }) => {
 
     const {admissionDates, admissionProcess,collegeName,collegeImage,collegeRating,details,events,eventsDetails,images,researchHistory,researchNumber,researchWorks,sports,sportsCategories} = college;
     return (
-        <div>
+        <div className="mb-12">
             <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src={collegeImage} className="w-[500px]" alt="" /></figure>
+                <figure><img src={collegeImage} className="h-[300px] object-cover" alt="" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{collegeName}</h2>
                     <p>College Rating: {collegeRating}</p>

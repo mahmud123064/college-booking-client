@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 import { useContext, useState } from 'react';
 import { AuthContext } from '../../Providers/AuthProvider';
 import GoogleLogin from '../../Shared/SocialMedia/GoogleLogin';
+import GithubLogin from '../../Shared/SocialMedia/GithubLogin';
 // import Swal from 'sweetalert2';
 // import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
@@ -157,6 +158,7 @@ const SignUp = () => {
                                 <p className='text-center'>Already have an Account?<span className='text-red-500 '><Link to='/login'> Please Login</Link></span></p>
 
                                <GoogleLogin></GoogleLogin>
+                               <GithubLogin></GithubLogin>
                             </div>
                         </div>
 
