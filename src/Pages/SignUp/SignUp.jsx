@@ -37,43 +37,6 @@ const SignUp = () => {
            
 
         }
-        // createUser(data.email, data.password)
-        //     .then(result => {
-        //         const loggedUser = result.user;
-
-        //         updateUser(data.name, data.photoURL)
-        //             .then(() => {
-        //                 // const logedUser = result.user;
-        //                 const saveUser = { name: data.name, email: data.email }
-        //                 fetch('https://muz-sports-server.vercel.app/users', {
-        //                     method: "POST",
-        //                     headers: {
-        //                         "content-type": "application/json"
-        //                     },
-        //                     body: JSON.stringify(saveUser)
-        //                 })
-        //                     .then(res => res.json())
-        //                     .then(data => {
-        //                         if (data.insertedId) {
-        //                             reset();
-        //                             Swal.fire({
-        //                                 position: 'top-center',
-        //                                 icon: 'success',
-        //                                 title: 'Your Have Successfully Signed Up',
-        //                                 showConfirmButton: false,
-        //                                 timer: 1500
-        //                             })
-        //                         }
-        //                     })
-        //             })
-        //             .catch(error => {
-        //                 console.log(error);
-        //             })
-        //         console.log(loggedUser);
-
-
-        //         navigate('/')
-        //     })
     }
 
 
