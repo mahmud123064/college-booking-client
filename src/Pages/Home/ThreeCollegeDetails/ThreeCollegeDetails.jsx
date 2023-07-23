@@ -5,7 +5,7 @@ const ThreeCollegeDetails = ({ threecollege }) => {
 
     console.log(threecollege);
 
-    const {admissionDates, admissionProcess,collegeName,collegeImage,collegeRating,details,events,eventsDetails,images,researchHistory,researchNumber,researchWorks,sports,sportsCategories} = threecollege;
+    const {admissionDates, admissionProcess,collegeName,collegeImage,collegeRating,details,events,eventsDetails,images,researchHistory,researchNumber,researchWorks,sports,sportsCategories,_id} = threecollege;
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">
@@ -19,7 +19,7 @@ const ThreeCollegeDetails = ({ threecollege }) => {
                     <p><span className="font-semibold">Research History: </span>{researchHistory}</p>
                     <p><span className="font-semibold">Sports: </span>{sports}</p>
                     <div className="card-actions items-center mx-auto">
-                       <Link to={`/threecollegedata/${threecollege}`}> <button className="btn btn-secondary">Details</button></Link>
+                       <Link to={`/threecollegedata/${threecollege._id}`}> <button className="btn btn-secondary">Details</button></Link>
                     </div>
                 </div>
             </div>
