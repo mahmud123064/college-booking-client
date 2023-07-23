@@ -1,0 +1,264 @@
+[
+     {
+      "collegeName": "Naogaon college",
+      "collegeImage": "https://i.ibb.co/vmM42Mk/Naogaon-govt-1.jpg",
+      "admissionDates": "September 2023",
+      "events": ["Orientation Day","Freshers Party","Alumni Meet"],
+      "researchHistory": "Example University has a long-standing research tradition...",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "details": "Naogaon Government College is a public educational institution based in Naogaon District, Bangladesh. It was established in 1962 with 300 students, and currently serves about 16,000. It is situated at the north-east part of Naogaon and is authorized by the National University.",
+        "images": "https://i.ibb.co/0nGLP4R/Naogaon-2.jpg",
+      "admissionProcess": "To apply for admission, visit the university's website and fill out the online application form...",
+      "eventsDetails": "Orientation Day will be held on September 15, 2023, to welcome new students...",
+      "collegeRating":"4.5",
+      "researchNumber":"90",
+      "researchWorks": [
+        {
+          "title": "Education",
+          "description": "Education socializes children into society by teaching cultural values and norms. It equips them with the skills needed to become productive members of society.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        },
+        {
+          "title": "Health",
+          "description": "Description of research work 2...",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        }
+      ],
+      "sportsCategories": [
+        {
+          "category": "Football",
+          "description": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used",
+          "image": "https://i.ibb.co/Ycc6Qq6/football-img.jpg"
+        },
+        {
+          "category": "Basketball",
+          "description": "Description of basketball sports category...",
+          "image": "https://i.ibb.co/PD8G0jk/basketball.jpg"
+        }
+      ]
+    },
+
+
+     {
+      "collegeName": "Dhaka University",
+      "collegeImage": "https://i.ibb.co/8N1hnTP/dhaka-university.jpg",
+      "admissionDates": "January 2023",
+      "events": ["Orientation Day","Freshers Party","Alumni Meet"],
+      "researchHistory": "Dhaka University has a long-standing research tradition...",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "details": "The University of Dhaka is a public research university located in Shahbag, Dhaka, Bangladesh. It is the oldest university in Bangladesh and one of the most prestigious universities in Asia.",
+        "images": "https://i.ibb.co/tLRwzxq/dhaka-university2.jpg",
+      "admissionProcess": "To apply for admission, visit the university's website and fill out the online application form...",
+      "eventsDetails": "Orientation Day will be held on September 15, 2023, to welcome new students...",
+      "collegeRating":"5",
+      "researchNumber":"1080",
+      "researchWorks": [
+        {
+          "title": "Education",
+          "description": "Education socializes children into society by teaching cultural values and norms. It equips them with the skills needed to become productive members of society.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        },
+        {
+          "title": "Health",
+          "description": "Health is a state of physical, mental and social well-being, not just the absence of disease or infirmity. Good health helps people live a full life.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        }
+      ],
+      "sportsCategories": [
+        {
+          "category": "Football",
+          "description": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used",
+          "image": "https://i.ibb.co/Ycc6Qq6/football-img.jpg"
+        },
+        {
+          "category": "Basketball",
+          "description": "We organise and oversee international competitions that include the FIBA Basketball World Cup, the Olympic Basketball Tournament and 3x3 basketball.",
+          "image": "https://i.ibb.co/PD8G0jk/basketball.jpg"
+        }
+      ]
+    },
+
+
+     {
+      "collegeName": "Daffodill University",
+      "collegeImage": "https://i.ibb.co/hFH8gs9/daffodil-varsity.jpg",
+      "admissionDates": "September 2023",
+      "events": ["Orientation Day","Freshers Party","Alumni Meet"],
+      "researchHistory": "Daffodil University has a long-standing research tradition...",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "details": "Daffodil University. Being established in 2002, Daffodil International University has become a prominent private university in Bangladesh. ",
+        "images": "https://i.ibb.co/crpGz9M/daffodil-varsity2.jpg",
+      "admissionProcess": "To apply for admission, visit the university's website and fill out the online application form...",
+      "eventsDetails": "Orientation Day will be held on September 15, 2023, to welcome new students...",
+      "collegeRating":"4.8",
+      "researchNumber":"3000",
+      "researchWorks": [
+        {
+          "title": "Education",
+          "description": "Education socializes children into society by teaching cultural values and norms. It equips them with the skills needed to become productive members of society.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        },
+        {
+          "title": "Health",
+          "description": "Description of research work 2...",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        }
+      ],
+      "sportsCategories": [
+        {
+          "category": "Football",
+          "description": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used",
+          "image": "https://i.ibb.co/Ycc6Qq6/football-img.jpg"
+        },
+        {
+          "category": "Basketball",
+          "description": "Description of basketball sports category...",
+          "image": "https://i.ibb.co/PD8G0jk/basketball.jpg"
+        }
+      ]
+    },
+
+
+     {
+      "collegeName": "Jahangirnagar",
+      "collegeImage": "https://i.ibb.co/kXQgqvB/jahangirnagar1.jpg",
+      "admissionDates": "May 2023",
+      "events": ["Orientation Day","Freshers Party","Alumni Meet"],
+      "researchHistory": "Jahangirnagar University has a long-standing research tradition...",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "details": "Jahangirnagar University is a public research university located in Savar, Dhaka in Bangladesh. It was established in 1970 b",
+        "images": "https://i.ibb.co/PW8pbBj/jahangirnagar2.jpg",
+      "admissionProcess": "To apply for admission, visit the university's website and fill out the online application form...",
+      "eventsDetails": "Orientation Day will be held on September 15, 2023, to welcome new students...",
+      "collegeRating":"4.7",
+      "researchNumber":"1100",
+      "researchWorks": [
+        {
+          "title": "Education",
+          "description": "Education socializes children into society by teaching cultural values and norms. It equips them with the skills needed to become productive members of society.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        },
+        {
+          "title": "Health",
+          "description": "Health is a state of physical, mental and social well-being, not just the absence of disease or infirmity. Good health helps people live a full life.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        }
+      ],
+      "sportsCategories": [
+        {
+          "category": "Football",
+          "description": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used",
+          "image": "https://i.ibb.co/Ycc6Qq6/football-img.jpg"
+        },
+        {
+          "category": "Basketball",
+          "description": "We organise and oversee international competitions that include the FIBA Basketball World Cup, the Olympic Basketball Tournament and 3x3 basketball.",
+          "image": "https://i.ibb.co/PD8G0jk/basketball.jpg"
+        }
+      ]
+    },
+
+
+     {
+      "collegeName": "Oxford University",
+      "collegeImage": "https://i.ibb.co/yBVJSGT/oxford1.jpg",
+      "admissionDates": "June 2023",
+      "events": ["Orientation Day","Freshers Party","Alumni Meet"],
+      "researchHistory": "Oxford University has a long-standing research tradition...",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "details": "Oxford University provides world-class research and education to benefit society on a local, regional, national and global scale. ",
+        "images": "https://i.ibb.co/tK2FCBv/oxford2.jpg",
+      "admissionProcess": "To apply for admission, visit the university's website and fill out the online application form...",
+      "eventsDetails": "Orientation Day will be held on September 15, 2023, to welcome new students...",
+      "collegeRating":"5",
+      "researchNumber":"8000",
+      "researchWorks": [
+        {
+          "title": "Education",
+          "description": "Education socializes children into society by teaching cultural values and norms. It equips them with the skills needed to become productive members of society.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        },
+        {
+          "title": "Health",
+          "description": "Description of research work 2...",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        }
+      ],
+      "sportsCategories": [
+        {
+          "category": "Football",
+          "description": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used",
+          "image": "https://i.ibb.co/Ycc6Qq6/football-img.jpg"
+        },
+        {
+          "category": "Basketball",
+          "description": "Description of basketball sports category...",
+          "image": "https://i.ibb.co/PD8G0jk/basketball.jpg"
+        }
+      ]
+    },
+
+
+     {
+      "collegeName": "Cambridge",
+      "collegeImage": "https://i.ibb.co/CbCjhGP/cambridge1.jpg",
+      "admissionDates": "July 2023",
+      "events": ["Orientation Day","Freshers Party","Alumni Meet"],
+      "researchHistory": "Cambridge University has a long-standing research tradition...",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "details": "The mission of the University of Cambridge is to contribute to society through education, learning and research at the highest international level.",
+        "images": "https://i.ibb.co/5cCmvkj/cambridge2.jpg",
+      "admissionProcess": "To apply for admission, visit the university's website and fill out the online application form...",
+      "eventsDetails": "Orientation Day will be held on September 15, 2023, to welcome new students...",
+      "collegeRating":"5",
+      "researchNumber":"7000",
+      "researchWorks": [
+        {
+          "title": "Education",
+          "description": "Education socializes children into society by teaching cultural values and norms. It equips them with the skills needed to become productive members of society.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        },
+        {
+          "title": "Health",
+          "description": "Health is a state of physical, mental and social well-being, not just the absence of disease or infirmity. Good health helps people live a full life.",
+          "image": "https://i.ibb.co/mXkXtMq/naogaon-recearch.jpg"
+        }
+      ],
+      "sportsCategories": [
+        {
+          "category": "Football",
+          "description": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used",
+          "image": "https://i.ibb.co/Ycc6Qq6/football-img.jpg"
+        },
+        {
+          "category": "Basketball",
+          "description": "We organise and oversee international competitions that include the FIBA Basketball World Cup, the Olympic Basketball Tournament and 3x3 basketball.",
+          "image": "https://i.ibb.co/PD8G0jk/basketball.jpg"
+        }
+      ]
+    }
+]
