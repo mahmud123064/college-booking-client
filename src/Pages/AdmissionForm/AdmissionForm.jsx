@@ -7,7 +7,7 @@ const AdmissionForm = () => {
     const admissiondata = useLoaderData();
     const { register, handleSubmit } = useForm();
 
-    const { college_name, college_details} = admissiondata;
+    const { college_name} = admissiondata;
     const img_hosting_url = `https://api.imgbb.com/1/upload?key=${img_hosting_token}`
 
     const onSubmit = data => {
@@ -114,15 +114,7 @@ const AdmissionForm = () => {
                             className="input input-bordered w-full " />
 
                     </div>
-                    <div className="form-control w-full ">
-                        <label className="label">
-                            <span className="label-text font-semibold">College Details</span>
-                        </label>
-                        <input type="text"  placeholder = {college_details}
-                            {...register('college_details', { required: false, maxLength: 80 })}
-                            className="input input-bordered w-full " />
-
-                    </div>
+                    
 
                     <div className="form-control w-full max-w-xs mb-12">
                         <label className="label">
