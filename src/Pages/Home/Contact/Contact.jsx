@@ -37,7 +37,7 @@ const Contact = () => {
                         </div>
                         <div className="form-control w-full ">
                             <label className="label">
-                                <span className="label-text text-gray-400">Name :</span>
+                                <span className="label-text text-gray-400">Email :</span>
                             </label>
                             <input type="email" placeholder="Write your Email " name='from_email' className="input input-bordered w-full bg-gray-700" />
                         </div>

@@ -9,15 +9,15 @@ const Footer = () => {
         <footer className="footer p-10 bg-neutral text-neutral-content md:center">
             <div>
                 <Link to = '/'>
-                <h3 className="text-3xl uppercase font-semibold">muz-it</h3>
+                <h3 className="text-3xl uppercase font-semibold text-orange-500">muz-it</h3>
                 </Link>
                 <p><span className="uppercase font-semibold">muz-it</span> Solution<br />Providing reliable service since from 2007</p>
             </div>
             <div>
-                <Link className="link link-hover">Home</Link>
-                <Link className="link link-hover">Colleges</Link>
-                <Link className="link link-hover">Admission</Link>
-                <Link className="link link-hover">My College</Link>
+                <Link to= '/' className="link link-hover">Home</Link>
+                <Link to= '/collegeinfo' className="link link-hover">Colleges</Link>
+                <Link to= '/admission' className="link link-hover">Admission</Link>
+                <Link to= '/mycollege' className="link link-hover">My College</Link>
             </div>
             <div>
                 <span className="footer-title">Information</span>
@@ -43,7 +43,7 @@ const Footer = () => {
         </footer>
         <div className="grid grid-flow-col-3">
             <div className="footer footer-center p-4 bg-neutral text-neutral-content">
-                <p>Copyright © 2023 - All right reserved by MUZ-IT Solution</p>
+                <p>Copyright © 2023 - All right reserved by MUZ-IT</p>
             </div>
         </div>
 

@@ -45,7 +45,7 @@ const AdmissionForm = () => {
     }
 
     return (
-        <div>
+        <div className="mb-12">
             <h1 className="text-center font-bold text-2xl mb-12">Selected College: {college_name}</h1>
 
             <div className="w-full px-10 ">
@@ -134,7 +134,7 @@ const AdmissionForm = () => {
                     </div>
 
                     <div className=" flex flex-col items-center justify-center">
-                        <input className="btn btn-secondary  " type="submit" value="Submit" />
+                        <input className="btn btn-block bg-fuchsia-600 text-white" type="submit" value="Submit" />
                     </div>
                 </form>
             </div>
