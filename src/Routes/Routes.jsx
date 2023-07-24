@@ -41,7 +41,7 @@ export const router = createBrowserRouter([
                 path: '/collegedetailsdata/:Id',
                 element:<CollegeDetailsData></CollegeDetailsData>,
                 loader:async({params})=> {
-                  const res =await fetch('http://localhost:5000/collegeinfo/')
+                  const res =await fetch('https://college-booking-server-cyan.vercel.app/collegeinfo/')
                   const data =await res.json()
                   const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
                   return collegeHistory
@@ -51,7 +51,7 @@ export const router = createBrowserRouter([
                 path: '/threecollegedata/:Id',
                 element:<ThreeCollegeData></ThreeCollegeData>,
                 loader:async({params})=> {
-                  const res =await fetch('http://localhost:5000/collegeinfo')
+                  const res =await fetch('https://college-booking-server-cyan.vercel.app/collegeinfo/')
                   const data =await res.json()
                   const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
                   return collegeHistory
@@ -61,7 +61,7 @@ export const router = createBrowserRouter([
                 path: '/admissionform/:Id',
                 element:<AdmissionForm></AdmissionForm>,
                 loader:async({params})=> {
-                  const res =await fetch('http://localhost:5000/collegeinfo')
+                  const res =await fetch('https://college-booking-server-cyan.vercel.app/collegeinfo')
                   const data =await res.json()
                   const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
                   return collegeHistory

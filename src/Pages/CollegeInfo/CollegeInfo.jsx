@@ -6,7 +6,7 @@ const CollegeInfo = () => {
     const [colleges, setColleges] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/collegeinfo')
+        fetch('https://college-booking-server-cyan.vercel.app/collegeinfo')
         .then(res => res.json())
         .then(data => setColleges(data))
     },[])

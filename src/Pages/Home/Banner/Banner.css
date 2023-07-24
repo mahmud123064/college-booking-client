@@ -1,0 +1,14 @@
+#slide1{
+    background-image: url('../../../../src/assets/banner_img_1.png');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+#slide2{
+    background-image: url('../../../../src/assets/Banner_img_2.png');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+

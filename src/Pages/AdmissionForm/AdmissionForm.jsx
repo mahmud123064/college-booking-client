@@ -27,7 +27,7 @@ const AdmissionForm = () => {
                     const newItem = { candidate_name, subject, candidate_phone, address, date_of_birth, image: imgURL, college_details,candidate_email, admissiondata}
                     console.log(newItem);
 
-                    fetch('http://localhost:5000/admission', {
+                    fetch('https://college-booking-server-cyan.vercel.app/admission', {
                         method: "POST",
                         headers: {
                             "content-type": "application/json"
