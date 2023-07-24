@@ -69,7 +69,11 @@ export const router = createBrowserRouter([
             {
                 path:'/admission',
                 element: <Admission></Admission>
-            }  
+            },
+            {
+                path:"/mycollege",
+                
+            } 
         ]
     },
 ]);
