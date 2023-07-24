@@ -21,8 +21,8 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 uppercase">
                         <li><Link>HOME</Link></li>
-                        <li><Link>Colleges</Link></li>
-                        <li><Link>Admission</Link></li>
+                        <li><Link to='/collegeinfo'>Colleges</Link></li>
+                        <li><Link to='/admission'>Admission</Link></li>
                         <li><Link>My College</Link></li>
 
                     </ul>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1">
                     <li><Link>HOME</Link></li>
                     <li><Link to='/collegeinfo'>Colleges</Link></li>
-                    <li><Link>Admission</Link></li>
+                    <li><Link to='/admission'>Admission</Link></li>
                     <li><Link>My College</Link></li>
                 </ul>
             </div>

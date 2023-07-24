@@ -1,0 +1,35 @@
+[
+    {
+        "college_name": "Naogaon college",
+        "college_details": "Naogaon Government College is a public educational institution based in Naogaon District, Bangladesh. It was established in 1962 with 300 students, and currently serves about 16,000. It is situated at the north-east part of Naogaon and is authorized by the National University.",
+          "candidate_name": "Mahmud",
+          "subject": "Computer Science",
+          "candidate_email": "mahmud@gmail.com",
+          "candidate_phone": "01759733296",
+          "address": "123 Main Street, Cityville, State, Country",
+          "date_of_birth": "1995-05-15",
+          "image": "https://example.com/path/to/candidate_image.jpg"
+      },
+    {
+        "college_name": "Daffodil University",
+        "college_details": "Daffodil International University(DIU) is a private research university located in Daffodil Smart City, Birulia - 1216, Dhaka, Bangladesh. It was established on 24 January 2002 under the Private University Act of 1992.",
+          "candidate_name": "zaman",
+          "subject": "Software",
+          "candidate_email": "zaman@gmail.com",
+          "candidate_phone": "01750000000",
+          "address": "123 Main Street, Cityville, State, Country",
+          "date_of_birth": "1994-05-15",
+          "image": "https://example.com/path/to/candidate_image.jpg"
+      },
+    {
+        "college_name": "Dhaka University",
+        "college_details": "The University of Dhaka is a public research university located in Shahbag, Dhaka, Bangladesh. It is the oldest university in Bangladesh and one of the most prestigious universities in Asia.",
+          "candidate_name": "faruk",
+          "subject": "Software",
+          "candidate_email": "faruk@gmail.com",
+          "candidate_phone": "01759900000",
+          "address": "Naogaon, Bangladesh",
+          "date_of_birth": "1993-05-15",
+          "image": "https://example.com/path/to/candidate_image.jpg"
+      }
+]

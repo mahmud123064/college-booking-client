@@ -9,6 +9,9 @@ import Login from "../Pages/Login/Login";
 import CollegeInfo from "../Pages/CollegeInfo/CollegeInfo";
 import CollegeDetailsData from "../Pages/CollegeDetailsData/CollegeDetailsData";
 import ThreeCollegeData from "../Pages/Home/ThreeCollegeData/ThreeCollegeData";
+import Admission from "../Pages/Admission/Admission";
+import AdmissionForm from "../Pages/AdmissionForm/AdmissionForm";
+
 
 
 export const router = createBrowserRouter([
@@ -52,7 +55,21 @@ export const router = createBrowserRouter([
                   const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
                   return collegeHistory
                 }
-              }  
+            },
+            {
+                path: '/admissionform/:Id',
+                element:<AdmissionForm></AdmissionForm>,
+                loader:async({params})=> {
+                  const res =await fetch('http://localhost:5000/admission')
+                  const data =await res.json()
+                  const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
+                  return collegeHistory
+                }
+            },
+            {
+                path:'/admission',
+                element: <Admission></Admission>
+            }  
         ]
     },
 ]);
