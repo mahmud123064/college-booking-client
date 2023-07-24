@@ -6,7 +6,7 @@ const Admission = () => {
     const [admissions, setAdmissions] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/admission')
+        fetch('http://localhost:5000/collegeinfo')
         .then(res => res.json())
         .then(data => setAdmissions(data))
     },[])

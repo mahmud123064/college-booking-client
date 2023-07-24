@@ -24,7 +24,7 @@ const AdmissionForm = () => {
                     const imgURL = imgResponse.data.display_url;
                     const { candidate_name, subject, candidate_phone, address, date_of_birth, image,college_details, candidate_email} = data;
 
-                    const newItem = { candidate_name, subject, candidate_phone, address, date_of_birth, image: imgURL, college_details,candidate_email}
+                    const newItem = { candidate_name, subject, candidate_phone, address, date_of_birth, image: imgURL, college_details,candidate_email, admissiondata}
                     console.log(newItem);
 
                     fetch('http://localhost:5000/admission', {
@@ -78,7 +78,7 @@ const AdmissionForm = () => {
                             <label className="label">
                                 <span className="label-text font-semibold">Phone Number</span>
                             </label>
-                            <input type="number" placeholder="Price"
+                            <input type="number" placeholder="Phone Number"
                                 {...register("candidate_phone", { required: true, maxLength: 80 })}
                                 className="input input-bordered w-full " />
 

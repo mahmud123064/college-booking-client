@@ -11,6 +11,7 @@ import CollegeDetailsData from "../Pages/CollegeDetailsData/CollegeDetailsData";
 import ThreeCollegeData from "../Pages/Home/ThreeCollegeData/ThreeCollegeData";
 import Admission from "../Pages/Admission/Admission";
 import AdmissionForm from "../Pages/AdmissionForm/AdmissionForm";
+import MyCollege from "../Pages/MyCollege/MyCollege";
 
 
 
@@ -50,7 +51,7 @@ export const router = createBrowserRouter([
                 path: '/threecollegedata/:Id',
                 element:<ThreeCollegeData></ThreeCollegeData>,
                 loader:async({params})=> {
-                  const res =await fetch('http://localhost:5000/collegeinfo/')
+                  const res =await fetch('http://localhost:5000/collegeinfo')
                   const data =await res.json()
                   const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
                   return collegeHistory
@@ -60,7 +61,7 @@ export const router = createBrowserRouter([
                 path: '/admissionform/:Id',
                 element:<AdmissionForm></AdmissionForm>,
                 loader:async({params})=> {
-                  const res =await fetch('http://localhost:5000/admission')
+                  const res =await fetch('http://localhost:5000/collegeinfo')
                   const data =await res.json()
                   const collegeHistory =data.find(singeldata=> singeldata?._id==params.Id)
                   return collegeHistory
@@ -72,7 +73,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/mycollege",
-                
+                element:<MyCollege></MyCollege>
             } 
         ]
     },
